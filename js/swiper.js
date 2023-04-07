@@ -8,15 +8,15 @@ var mySwiper = new Swiper('.swiper-container', {
   
     // 自動輪播，可選值：數字（自動輪播的時間間隔），false（禁用自動輪播）
     autoplay: {
-      delay: 5000,
+      delay: 4000,
       disableOnInteraction: false
     },
   
     // 分頁器，如果設置為 true，會自動生成分頁器
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    },
+    // pagination: {
+    //   el: '.swiper-pagination',
+    //   clickable: true
+    // },
   
     // 導航按鈕，如果設置為 true，會自動生成上一頁、下一頁按鈕
     navigation: {
@@ -41,6 +41,7 @@ var mySwiper = new Swiper('.swiper-container', {
         // 參考 https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
         timingFunction: 'ease-in-out'
       },
+
     allowTouchMove: false,
-    speed:3000,
+    speed:4000,
   })

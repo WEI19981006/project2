@@ -979,9 +979,144 @@ div.swiper-container{
     div.swiper-container{
         display: block;
         /* padding: 0 5%; */
-    }
-    div.swiper-slide img{
-        width: 414px;
         height: 100vh;
+        overflow: hidden;
     }
+
+
+    .swiper-slide {
+        width: auto;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+      }
+      .slide1 p{
+        font-size: 3.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+
+        line-height: 100vh;
+        color: white;
+        font-weight: bold;
+        display: inline;
+        /* margin: 0 auto; */
+        position: relative;
+      }
+
+      .slide1 p::before{
+        content: "";
+        display: block;
+        height: 120px;
+        width: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: -150px;
+        left: 50%;
+      }
+
+      .slide1 p::after{
+        content: "";
+        display: block;
+        height: 120px;
+        width: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+      }
+
+      .slide1 {
+        background-image: url('../images/index/Mask\ group\ \(2\).png');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        z-index: 50;
+        position: relative;
+      }
+      
+      .slide2 {
+        background-image: url('../images/index/Mask\ group\ \(3\).png');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        z-index: 50;
+        position: relative;
+      }
+
+      .slide2 p{
+        font-size: 3.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+
+        line-height: 100vh;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        display: inline;
+        /* margin: 0 auto; */
+        position: relative;
+      }
+
+      .slide2 p::before{
+        content: "";
+        display: block;
+        height: 120px;
+        width: 2px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: -150px;
+        left: 50%;
+      }
+
+      .slide2 p::after{
+        content: "";
+        display: block;
+        height: 120px;
+        width: 2px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+      }
+      
+      .slide3 {
+        background-image: url('../images/index/phoneswiper1.png');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        z-index: 50;
+        position: relative;
+      }
+
+      .slide3 p{
+        font-size: 3.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+
+        line-height: 100vh;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        display: inline;
+        /* margin: 0 auto; */
+        position: relative;
+      }
+
+      .slide3 p::before{
+        content: "";
+        display: block;
+        height: 120px;
+        width: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: -150px;
+        left: 50%;
+      }
+
+      .slide3 p::after{
+        content: "";
+        display: block;
+        height: 120px;
+        width: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+      }
 }
