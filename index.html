@@ -28,6 +28,9 @@
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>
 
+    <!-- 載入 Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
 
     <link rel="stylesheet" href="./css/nav_footer.css">
     <link rel="stylesheet" href="./css/index.css">
@@ -97,19 +100,29 @@
             </div>
 
 
-            <section class="sec1">
+            <!-- <section class="sec1">
                 <div class="phone-flexslider">
                     <ul>
-                        <li>
-                            <h1>
-                                <!-- 來到日和<br>
-                                <span>品味生活的美好日常</span> -->
-                            </h1>
-                        </li>
+                        <li></li>
                     </ul>
                 </div>
-            </section>
+            </section> -->
 
+
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/index/Mask group (2).png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/index/phone1.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/index/Mask group (3).png" alt="">
+                  </div>
+                </div>
+              </div>
 
             <section class="sec2">
                 <div class="sec2-left">
@@ -520,7 +533,11 @@
             </div>
         </div>
     </footer>
-    
+
+
+    <!-- 載入 Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
     <!--aos-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

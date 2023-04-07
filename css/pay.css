@@ -470,6 +470,9 @@ div.main-bottom span.red{
     .main-top div.list{
         width: 100%;
     }
+    .main-top div.list ul{
+        background-color: white;
+    }
     div.card-img {
         width: 100%;
         margin-top: 20px;

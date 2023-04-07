@@ -7,7 +7,10 @@ $(function () {
     directionNav: false,
     pauseOnAction: false
   });
+
+
 });
+
 
 
 let cardslide = document.querySelector(".cardslide");
